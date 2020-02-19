@@ -1,0 +1,9 @@
+{
+  "name": "pathfinder-proto",
+  "version": "1.0.0",
+  "description": "Pathfinder service thrift protocol.",
+  "author": "rbk.money",
+  "private": true,
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/rbkmoney/pathfinder_proto#readme"
+}
