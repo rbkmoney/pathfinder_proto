@@ -4,6 +4,6 @@
   "description": "Pathfinder service thrift protocol.",
   "author": "rbk.money",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "Apache 2.0",
   "homepage": "https://github.com/rbkmoney/pathfinder_proto#readme"
 }
