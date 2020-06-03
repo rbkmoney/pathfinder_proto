@@ -516,6 +516,12 @@ struct LookupRequest {
     2: optional list<LookupNamespace> namespaces
 }
 
+struct ReverseLookupRequest {
+    1: required LookupNamespace parent_namespace
+    2: required LookupID parent_id
+    3: optional list<LookupNamespace> child_namespaces
+}
+
 struct LookupResult {
     1: required list<ResultData> data
 }
@@ -540,5 +546,7 @@ exception InvalidArguments {
 
 service Lookup {
     LookupResult Lookup (1: LookupRequest request)
+
+    LookupResult ReverseLookup(1: ReverseLookupRequest request)
         throws(1: InvalidArguments invalid_args)
 }
