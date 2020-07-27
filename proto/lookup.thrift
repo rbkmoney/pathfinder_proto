@@ -33,7 +33,7 @@ struct Filter {
     1: optional integer limit
     2: optional integer offset
     // Only fetch the event that is considered "current" (latest)
-    3: optional boolean current
+    3: optional boolean is_current
 }
 
 /**
