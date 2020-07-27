@@ -30,10 +30,10 @@ struct RelationParameters {
 
 struct Filter {
     // Limit and offset for pagination
-    1: optional integer limit
-    2: optional integer offset
+    1: optional i32 limit
+    2: optional i32 offset
     // Only fetch the event that is considered "current" (latest)
-    3: optional boolean is_current
+    3: optional bool is_current
 }
 
 /**
