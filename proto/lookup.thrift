@@ -46,7 +46,7 @@ typedef map<string, string> ResultData
 
 struct Result {
     1: required LookupID id
-    2: required LookupNamespace namespace
+    2: required LookupNamespace ns
     3: required ResultData data
 }
 
