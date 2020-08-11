@@ -56,7 +56,7 @@ struct Result {
     // Database write time
     4: required Timestamp wtime
     // Optional time when the event has occured
-    5: optional Timestamp event_time
+    6: optional Timestamp event_time
     // Event data
     3: required ResultData data
 }
